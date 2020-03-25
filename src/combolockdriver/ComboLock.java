@@ -22,7 +22,7 @@ public class ComboLock {
         Combo[1] = num2;
         Combo[2] = num3;
         
-        if(first == Combo[0] && second == Combo[1] && third == Combo[2]){
+        if(first == num1 && second == num2 && third == num3){
             System.out.println("That Is The Right Combination");
             System.out.println("Unlocked!");
         }
