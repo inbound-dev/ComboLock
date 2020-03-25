@@ -37,8 +37,8 @@ public class ComboLockDriver {
             }
          // generating substrings and storing them as int's   
         str1 = userInput.substring(0,userInput.indexOf("-"));
-        str2 = userInput.substring(userInput.indexOf("-"),userInput.lastIndexOf("-"));
-        str3 = userInput.substring(userInput.lastIndexOf("-"), userInput.length());
+        str2 = userInput.substring(userInput.indexOf("-") + 1,userInput.lastIndexOf("-"));
+        str3 = userInput.substring(userInput.lastIndexOf("-") + 1, userInput.length());
         
         num1 = Integer.parseInt(str1);
         num2 = Integer.parseInt(str2);
